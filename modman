@@ -1,0 +1,6 @@
+app/code/local/MobWeb/ProductViewCustomBodyClasses app/code/local/MobWeb/ProductViewCustomBodyClasses/
+
+app/etc/modules/MobWeb_ProductViewCustomBodyClasses.xml app/etc/modules/MobWeb_ProductViewCustomBodyClasses.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

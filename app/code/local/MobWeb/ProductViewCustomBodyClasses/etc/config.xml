@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config> 
+    <modules>
+        <MobWeb_ProductViewCustomBodyClasses>
+            <version>0.0.1</version>
+        </MobWeb_ProductViewCustomBodyClasses>
+    </modules>
+    <global>
+        <helpers>
+            <productviewcustombodyclasses>
+                <class>MobWeb_ProductViewCustomBodyClasses_Helper_Product_View</class>
+            </productviewcustombodyclasses>
+            <catalog>
+                <rewrite>
+                    <product_view>MobWeb_ProductViewCustomBodyClasses_Helper_Product_View</product_view>
+                </rewrite>
+            </catalog>
+        </helpers>
+    </global>
+</config>
